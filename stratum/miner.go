@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/sammy007/monero-stratum/cnutil"
-	"github.com/sammy007/monero-stratum/hashing"
-	"github.com/sammy007/monero-stratum/util"
+	"github.com/Aris-sumogr/sumokoin-stratum/cnutil"
+	"github.com/Aris-sumogr/sumokoin-stratum/hashing"
+	"github.com/Aris-sumogr/sumokoin-stratum/util"
 )
 
 type Job struct {
