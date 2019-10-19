@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/sammy007/monero-stratum/pool"
-	"github.com/sammy007/monero-stratum/stratum"
+	"github.com/Aris-sumogr/sumokoin-stratum/pool"
+	"github.com/Aris-sumogr/sumokoin-stratum/stratum"
 
 	"github.com/goji/httpauth"
 	"github.com/gorilla/mux"
