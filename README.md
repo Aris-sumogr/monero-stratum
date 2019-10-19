@@ -19,14 +19,14 @@ High performance CryptoNote mining stratum with Web-interface written in Golang.
 Dependencies:
 
   * go-1.6
-  * Everything required to build Monero
-  * Monero >= **v0.14.0.0** (sometimes `master` branch required)
+  * Everything required to build Sumokoin
+  * Sumokoin source
 
 ### Linux
 
 Use Ubuntu 16.04 LTS.
 
-Compile Monero source (with shared libraries option):
+Compile Sumokoin source (with shared libraries option):
 
     apt-get install git cmake build-essential libssl-dev pkg-config libboost-all-dev
     git clone https://github.com/sumoprojects/sumokoin.git
@@ -52,7 +52,7 @@ Build stratum:
 
 ### Mac OS X
 
-Compile Monero source:
+Compile Sumokoin source:
 
     git clone https://github.com/sumoprojects/sumokoin-stratum.git
     cd monero
