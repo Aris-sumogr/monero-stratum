@@ -26,12 +26,12 @@ func TestConvertBlob(t *testing.T) {
 }
 
 func TestDecodeAddress(t *testing.T) {
-	addy := "45pyCXYn2UBVUmCFjgKr7LF8hCTeGwucWJ2xni7qrbj6GgAZBFY6tANarozZx9DaQqHyuR1AL8HJbRmqwLhUaDpKJW4hqS1"
+	addy := "Sumoo5CnCoy4CL2vdUHHjze8k8aaHypyAidwtjzSdm7s7kTzBUG8U6cZCpSESF12XcYXap7b7GP6mCp52vLjuh3ZBnqGiRUjZBb"
 	if !ValidateAddress(addy) {
 		t.Error("Valid address")
 	}
 
-	addy = "46BeWrHpwXmHDpDEUmZBWZfoQpdc6HaERCNmx1pEYL2rAcuwufPN9rXHHtyUA4QVy66qeFQkn6sfK8aHYjA3jk3o1Bv16em"
+	addy = "SumonzswgksEJQjZVj2aDBYh3wg1bxTDkcyc2ND7F1kaQnjFG9QQ95Jbebb7X117nSGAvznNnnzy32xMZvdMTNPxLUPJTaimvFD"
 	if !ValidateAddress(addy) {
 		t.Error("Valid address")
 	}
@@ -50,6 +50,6 @@ func BenchmarkConvertBlob(b *testing.B) {
 
 func BenchmarkDecodeAddress(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		ValidateAddress("45pyCXYn2UBVUmCFjgKr7LF8hCTeGwucWJ2xni7qrbj6GgAZBFY6tANarozZx9DaQqHyuR1AL8HJbRmqwLhUaDpKJW4hqS1")
+		ValidateAddress("Sumoo5CnCoy4CL2vdUHHjze8k8aaHypyAidwtjzSdm7s7kTzBUG8U6cZCpSESF12XcYXap7b7GP6mCp52vLjuh3ZBnqGiRUjZBb")
 	}
 }
