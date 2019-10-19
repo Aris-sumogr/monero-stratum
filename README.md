@@ -1,4 +1,4 @@
-# monero-stratum
+# sumokoin-stratum
 
 High performance CryptoNote mining stratum with Web-interface written in Golang.
 
