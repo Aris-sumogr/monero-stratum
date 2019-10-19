@@ -7,7 +7,7 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/sammy007/monero-stratum/cnutil"
+	"github.com/Aris-sumogr/sumokoin-stratum/cnutil"
 )
 
 type BlockTemplate struct {
